@@ -1,0 +1,10 @@
+package Helloworld;
+import java.util.*;
+class Hello{
+	public static void main(String[] args) {
+		try {
+		System.out.print(5/0);}
+	
+	catch(Exception e) {System.out.println(e);
+	System.out.println("eof");
+}}}
