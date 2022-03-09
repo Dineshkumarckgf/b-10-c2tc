@@ -10,7 +10,7 @@ public class jdbcDemo {
 		
     Statement st=con.createStatement();
 //String query="create table student(id int primary key,sname varchar(20))";
-   // String query1="insert into student values(1,'vaishu')";
+   // String query1="insert into student values(1,'dinesh')";
   //  String query2="insert into student values(2,'papaa')";
     //String query3="insert into student values(3,'gud')";
    // String query3="delete from student where id=3";

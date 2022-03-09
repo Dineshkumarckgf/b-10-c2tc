@@ -7,7 +7,7 @@ public class src {
 		Statement st=con.createStatement();
 //		String query="create table employee(id int primary key,ename varchar(20),esalary int(5))";
 			//String query1="insert into employee values(1,'dinesh','348')";
-			//String query2="insert into employee values(2,'dinesh','45')";
+			//String query2="insert into employee values(2,'veena','45')";
 			//String query2="update employee set ename='ganesh' where id=2"; 
 		ResultSet rs=st.executeQuery("SELECT id,ename,esalary From  employee");
 		while(rs.next())
